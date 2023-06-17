@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="grid">
+                <div class="grid-coluna">
+                    <label for="inputname" class="form-label">name</label>
+                    <input type="name" id="inputname" class="form-control" aria-labelledby="passwordHelpBlock" value="digite seu nome">
+                </div>
+
+                <div class="grid-coluna">
+                    <label for="inputemail" class="form-label">email</label>
+                    <input type="email" id="inputemail" class="form-control" aria-labelledby="passwordHelpBlock" value="name@example.com">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </section>
+
+        <section>
+            <div class="grid2">
+                <div class="grid-coluna2">
+                    <label for="" >data de nacimento</label>
+                    <input type="date" value="dd/mm/aaaa" id="nascimento">
+                </div>
+
+                <div class="grid-coluna2">
+                    <label for="exampleColorInput" class="form-label">Color picker</label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+                </div>
+
+                <div class="grid-coluna2">
+                    <label for="formFileSm" class="form-label">Defina o avatar</label>
+                    <input class="form-control form-control-sm" id="formFileSm" type="file" value="nenhum...escolhido">
+                </div>
+
+                <div class="grid-coluna2">
+                    <label for="inputPassword5" class="form-label">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div id="passwordHelpBlock" class="form-text">
+                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button type="button" class="btn btn-success">Enviar</button>
+    </main>
+</body>
+</html>

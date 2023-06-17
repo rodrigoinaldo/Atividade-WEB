@@ -1,0 +1,22 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+*{
+    margin: 0%;
+}
+.grid{
+    display: inline-grid;
+    grid-template-columns: 150% 150%;
+}
+.grid-coluna{
+   padding-right: 5px;
+}
+.grid2{
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grid-coluna2{
+    padding-right: 10px;
+    width: 100%;
+}
+.grid-coluna2 .nascimento{
+    width: 10%;
+}
